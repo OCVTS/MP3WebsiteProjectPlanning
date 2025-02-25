@@ -1,13 +1,8 @@
 body {
-    font-family: "Skranji", sans-serif;
-    font-size: 2rem;
-  }
-  
-  h1 {
-    text-align: center;
-  }
+  font-family: "Skranji", serif;
+}
 
-  .topnav {
+.topnav {
   overflow: hidden;
   background-color: #333;
 }
@@ -30,3 +25,22 @@ body {
   background-color: #04AA6D;
   color: white;
 }
+
+.box {
+  border: 3px solid gray;
+  position: absolute;
+  top: 60%;
+  right: 50px;
+  width: 45%;
+}
+
+p {
+  text-indent: 50px;
+  font-size: 1.5rem;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+hr.solid {
+    border-top: 5px solid #000000;
+  }

@@ -76,6 +76,22 @@ function buyMiner() {
     }
 }
 
+
+function buyCoffee() {
+    if (parsedDonut >= parsedCoffeeCost) {
+        donut.innerHTML = Math.round(parsedDonut -= parsedCoffeeCost);
+
+        coffeeLevel.innerHTML ++
+
+        parsedCoffeeIncrease = parseFloat((parsedCoffeeIncrease * 1.03).toFixed(2))
+        coffeeIncrease.innerHTML = parsedCoffeeIncrease
+        gpc += parsedCoffeeIncrease
+
+        parsedCoffeeCost *= 1.18;
+        coffeeCost.innerHTML = Math.round(parsedCoffeeCost)
+    }
+}
+
 setInterval(() => {
     parsedDonut += gps / 10
     donut.innerHTML = Math.round(parsedDonut)
