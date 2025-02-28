@@ -14,9 +14,10 @@ h1 {
   text-align: center;
 }
 
+/* Navigation Bar for other pages*/
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #383434;
   width: 100%;
 }
 
@@ -34,11 +35,6 @@ h1 {
   color: black;
 }
 
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
 .main {
   display: flex;
   gap: 200px;
@@ -50,6 +46,7 @@ h1 {
   margin-bottom: 50px;
 }
 
+/* Donut image that will be used for the Donut Clicker*/
 .donut-image {
   width: 500px;
 }
@@ -64,6 +61,7 @@ h1 {
   transform: scale(1.02)
 }
 
+/* This will show what the upgrade buttons will look like */
 .upgrade {
   display: flex;
   align-items: center;
@@ -86,6 +84,7 @@ h1 {
   width: 55px;
 }
 
+/* Donut images that will be next to the cost of the levels*/
 .donut-img {
   width: 20px;
   height: 20px;
@@ -101,6 +100,7 @@ h1 {
   margin: 0;
 }
 
+/* Showcases the number of the cost portrayed to the level */
 .cost-info {
   display: flex;
   align-items: center;
@@ -121,6 +121,7 @@ h1 {
   display: block;
 }
 
+/* This will show the stats of how much GPC or GPS is used when clicking on the levels */
 .statistics {
   position: absolute;
   bottom: 0;

@@ -1,7 +1,8 @@
 body {
-  font-family: "Skranji", serif;
+  font-family: "Skranji", sans-serif;
 }
 
+/* Navigation Bar for other pages*/
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -21,25 +22,18 @@ body {
   color: black;
 }
 
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
 .box {
-  border: 3px solid gray;
   position: absolute;
   top: 60%;
-  right: 50px;
+  right: 250px;
   width: 45%;
 }
 
-p {
-  text-indent: 50px;
-  font-size: 1.5rem;
-  text-align: justify;
-  letter-spacing: 3px;
+.haff {
+  font-size: 5rem;
 }
+
+/* This will be used as a divider for the page */
 
 hr.solid {
     border-top: 5px solid #000000;
